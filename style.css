@@ -1,0 +1,181 @@
+
+* {
+  margin: 0;
+}
+
+body {
+  font-weight: 600;
+  font-family:"Segoe UI";
+  background-color: #f3f4f5;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 100% 65%;
+  justify-items: center;
+  align-items: center;
+  background-image: url("tlo.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.top {
+  width: 60%;
+  height: 100%;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-rows: 0.65fr 5fr;
+}
+
+.navigation{
+  display: grid;
+  width: 100%;
+  height: 100%;
+  border-bottom: 1px solid #cad2d7;
+  justify-items: left;
+  align-items: center;
+  grid-template-columns: 1fr 5fr;
+}
+
+.buttons {
+  display: grid;
+  justify-self: end;
+  width: 70%;
+  height: 100%;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: repeat(6, 1fr);
+  font-size: 70px;
+}
+
+.buttons .link {
+  text-decoration: none;
+  width: 70%;
+  padding: 7.5%;
+  height: min-content;
+  text-align: center;
+  align-content: center;
+  border-radius: 3px;
+  transition: 0.5s;
+  font-family: "Roboto";
+  color: black;
+
+}
+
+.buttons .active {
+  background-color: #ffc000;
+  color: #fff;
+}
+
+.logo {
+  width: 100%;
+  padding: 0;
+  transition: 0.5s;
+}
+.logo:hover {
+  opacity: 0.7;
+}
+
+.logoimg {
+  width: 70%;
+}
+
+.buttons a:hover {
+  background-color: #646d72;
+}
+
+.readmore {
+  transition: 0.5s;
+}
+
+.readmore:hover {
+  color: #ffc000;
+}
+
+.about{
+  width: 100%;
+  height: 100%;
+  
+}
+
+.about-site {
+  position: relative;
+  width: 60%;
+  height: min-content;
+  top: 20%;
+  font-size: 70px;
+}
+
+.about-site h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 96px;
+  margin-bottom: 15px;
+  color: #fff;
+font-size: 100px;
+  line-height: 100%;
+  margin: 25px 0 0.5em;
+
+}
+
+.about-site h3 {
+  font-family: "Aleo", serif;
+  letter-spacing: 0;
+  color: #e2e2e2;
+  font-size: 28px;
+  line-height: 100%;
+  margin: 25px 0 0.5em;
+font-size: 70px;
+}
+
+.about-site h5 {
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  font-size: 50px;
+  line-height: 100%;
+  margin: 25px 0 0.5em;
+}
+
+.about-site p {
+  color: #fff;
+  word-wrap: break-word;
+  margin: 1em 0;
+  font-weight: 600;
+}
+
+.about-site a {
+  color: #3c4a52;
+  outline: none;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#infos {
+  background-color: #f3f4f5;
+  width: 60%;
+  height: 70%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  align-self: flex-start;
+  border-bottom: 1px solid red;
+  margin-bottom: 5%;
+  font-size: 50px;
+}
+
+.text {
+  width: 85%;
+  height: 90%;
+  display: grid;
+  grid-template-rows: 0.5fr 2fr;
+}
+
+.text h2 {
+  font-family: "Roboto", sans-serif;
+  font-size:50xpx;
+  margin-top: 15px;
+  font-weight: normal;
+}
